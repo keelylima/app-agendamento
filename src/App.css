@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+body,
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+button {
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  list-style-type: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* grid */
+.containerFlex {
+  max-width: 1440px;
+  margin: 20px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container::after,
+.container::before {
+  content: '';
+  display: table;
+  clear: both;
 }
 
-.App-link {
-  color: #61dafb;
+.containerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  /*vai ter no minimo 160px, expandir tudo bem, diminuir menos que isso, não*/
+  /*300 px é a coluna do anuncio, unica que vai expandir/diminuir sempre é a do meio, conteudo*/
+  /*3fr é para o conteudo expandir 3x mais que o sidnev*/
+  grid-template-areas:
+    'header header header'
+    'redes data post'
+    'texto texto post'
+    'upload upload post'
+    'footer footer footer';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg {
+  background-color: #f8f8f8;
+  /* height: 100vh; */
+}
+
+.mt {
+  margin-top: 50px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}
+
+.mr {
+  margin-right: 40px;
+}
+
+.ml {
+  margin-left: 40px;
 }

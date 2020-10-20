@@ -1,0 +1,26 @@
+.gridArea {
+  grid-area: redes;
+  margin: 50px 20px 20px 40px;
+}
+
+.containerImg {
+  border: 1px solid #9e9e9e;
+  border-radius: 50%;
+  width: 15px !important;
+  height: 15px;
+  padding: 10px;
+}
+
+.ListRedesSociais {
+  display: flex;
+  padding: 20px;
+}
+
+.ListRedesSociais li + li {
+  margin-left: 15px;
+}
+
+.ListRedesSociais li button {
+  background-color: transparent;
+  border: none;
+}

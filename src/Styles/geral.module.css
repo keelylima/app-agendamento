@@ -1,0 +1,14 @@
+.containerBorder {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.containerBorder h3 {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+button {
+  cursor: pointer;
+}

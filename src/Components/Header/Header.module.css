@@ -1,0 +1,21 @@
+.bg {
+  background-color: #fff;
+  grid-area: header;
+}
+
+.containerFlex {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 18px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.containerFlex img {
+  margin-right: 8px;
+}
+
+.containerUser {
+  display: flex;
+  align-items: center;
+}

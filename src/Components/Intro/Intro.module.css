@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 143px;
+  padding-bottom: 105px;
+}
+
+.btnAgendar {
+  background-color: #f2994a;
+  color: #fff;
+  border: 1px solid #e0812c;
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.btnAgendar:hover {
+  background-color: #e0812c;
+}

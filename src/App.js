@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import DataPublicacao from './Components/DataPublicacao/DataPublicacao';
+import Header from './Components/Header/Header';
+import Intro from './Components/Intro/Intro';
+import RedesSociais from './Components/RedesSociais/RedesSociais';
+import TextoPost from './Components/TextoPost/TextoPost';
+import UploadDeImagem from './Components/UploadDeImagem/UploadDeImagem';
+import VisualizacaoPost from './Components/VisualizacaoPost/VisualizacaoPost';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg containerGrid">
+      <Header></Header>
+      {/* <Intro></Intro> */}
+      <RedesSociais></RedesSociais>
+      <DataPublicacao></DataPublicacao>
+      <TextoPost></TextoPost>
+      <UploadDeImagem></UploadDeImagem>
+      <VisualizacaoPost></VisualizacaoPost>
     </div>
   );
 }
