@@ -6,6 +6,7 @@ import Intro from './Components/Intro/Intro';
 import RedesSociais from './Components/RedesSociais/RedesSociais';
 import TextoPost from './Components/TextoPost/TextoPost';
 import UploadDeImagem from './Components/UploadDeImagem/UploadDeImagem';
+import DisplayImage from './Components/VisualizacaoPost/DisplayImage/DisplayImage';
 import VisualizacaoPost from './Components/VisualizacaoPost/VisualizacaoPost';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <TextoPost></TextoPost>
       <UploadDeImagem></UploadDeImagem>
       <VisualizacaoPost></VisualizacaoPost>
+      {/* <DisplayImage></DisplayImage> */}
     </div>
   );
 }

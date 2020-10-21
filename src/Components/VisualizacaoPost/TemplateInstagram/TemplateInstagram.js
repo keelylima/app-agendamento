@@ -20,7 +20,7 @@ const TemplateInstagram = () => {
       <span>Anselmo Carlos</span>
 
       {/* imagem de upload */}
-      <img src="" alt="" />
+      {/* <img src={dados.image} alt="" /> */}
 
       {/* icons curtir/comentar/salvar */}
       <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>

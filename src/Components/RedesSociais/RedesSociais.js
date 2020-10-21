@@ -11,7 +11,7 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import stylesRedes from '../RedesSociais/RedesSociais.module.css';
 import styles from '../../Styles/geral.module.css';
 
-function RedesSociais({ margin }) {
+function RedesSociais() {
   return (
     <div className={classnames(styles.containerBorder, stylesRedes.gridArea)}>
       <h3>Redes Sociais</h3>
