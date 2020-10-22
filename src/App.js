@@ -10,6 +10,7 @@ import DisplayImage from './Components/VisualizacaoPost/DisplayImage/DisplayImag
 import VisualizacaoPost from './Components/VisualizacaoPost/VisualizacaoPost';
 import { GlobalStorage } from './Components/GlobalContext/GlobalContext';
 import TemplateInstagram from './Components/VisualizacaoPost/TemplateInstagram/TemplateInstagram';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <UploadDeImagem></UploadDeImagem>
         <VisualizacaoPost></VisualizacaoPost>
       </GlobalStorage>
+      <Footer></Footer>
     </div>
   );
 }

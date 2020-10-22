@@ -1,0 +1,42 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.footer button:nth-child(1) {
+  background-color: transparent;
+  border: none;
+  color: #2f80ed;
+}
+
+.footer button:nth-child(2) {
+  border: 1px solid #2f80ed;
+  border-radius: 4px;
+  color: #2f80ed;
+  padding: 10px 15px;
+  margin: 0px 15px;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.footer button:nth-child(2):hover {
+  color: #fff;
+  background-color: #2f80ed;
+}
+
+.footer button:nth-child(3) {
+  border: none;
+  border-radius: 4px;
+  background-color: #2f80ed;
+  color: #fff;
+  padding: 10px 40px;
+  transition: 0.3s;
+}
+
+.footer button:nth-child(3):hover {
+  background-color: #0052cc;
+}
