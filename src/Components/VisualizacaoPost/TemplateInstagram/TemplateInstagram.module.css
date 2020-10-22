@@ -1,0 +1,37 @@
+.iconInstagram {
+  width: 35px !important;
+  height: 35px;
+  padding: 10px;
+  margin-right: 12px;
+  color: #fff;
+  background: linear-gradient(#ef2ea2, #e0a22b);
+  border: 1px solid #ef2ea2;
+  border-radius: 50%;
+}
+
+.containerInstagram {
+  margin: 35px 20px 0px 20px;
+}
+
+.containerInstagram img {
+  margin: 0 auto;
+  max-width: 30%;
+  display: block;
+}
+
+.containerIcon {
+  padding: 15px 0px 30px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.containerIconsInteraction {
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 10px 15px;
+}
+
+.heartIcon {
+  margin-right: 13px;
+}

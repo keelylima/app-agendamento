@@ -1,13 +1,7 @@
-body,
-p,
-h1,
-h2,
-h3,
-ul,
-li,
-button {
+* {
   padding: 0px;
   margin: 0px;
+  /* box-sizing: border-box; */
 }
 
 li {

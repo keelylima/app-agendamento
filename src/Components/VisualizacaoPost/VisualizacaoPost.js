@@ -21,7 +21,6 @@ const VisualizacaoPost = () => {
           Aguardando conteúdo. Informe os canais e as mídias desejadas para
           visualização.
         </span>
-        {/* {global.dados.image && <img src={global.dados.image} />} */}
       </div>
       <TemplateInstagram></TemplateInstagram>
     </div>

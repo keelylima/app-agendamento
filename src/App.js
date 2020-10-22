@@ -22,9 +22,7 @@ function App() {
       <GlobalStorage>
         <UploadDeImagem></UploadDeImagem>
         <VisualizacaoPost></VisualizacaoPost>
-        <TemplateInstagram></TemplateInstagram>
       </GlobalStorage>
-      {/* <DisplayImage></DisplayImage> */}
     </div>
   );
 }
