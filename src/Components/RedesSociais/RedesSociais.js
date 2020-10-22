@@ -33,7 +33,7 @@ function RedesSociais() {
           </button>
         </li>
         <li>
-          <button className={stylesRedes.btnRedesSociais}>
+          <button className={stylesRedes.btnRedesSociais} disabled>
             <FontAwesomeIcon
               icon={faYoutube}
               className={stylesRedes.containerImg}
@@ -41,7 +41,7 @@ function RedesSociais() {
           </button>
         </li>
         <li>
-          <button className={stylesRedes.btnRedesSociais}>
+          <button className={stylesRedes.btnRedesSociais} disabled>
             <FontAwesomeIcon
               icon={faPinterest}
               className={stylesRedes.containerImg}
@@ -49,7 +49,7 @@ function RedesSociais() {
           </button>
         </li>
         <li>
-          <button className={stylesRedes.btnRedesSociais}>
+          <button className={stylesRedes.btnRedesSociais} disabled>
             <FontAwesomeIcon
               icon={faTwitter}
               className={stylesRedes.containerImg}
@@ -57,7 +57,7 @@ function RedesSociais() {
           </button>
         </li>
         <li>
-          <button className={stylesRedes.btnRedesSociais}>
+          <button className={stylesRedes.btnRedesSociais} disabled>
             <FontAwesomeIcon
               icon={faFacebookF}
               className={stylesRedes.containerImg}

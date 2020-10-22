@@ -24,3 +24,18 @@
   background-color: transparent;
   border: none;
 }
+
+button .containerImg {
+  transition: 0.3s;
+}
+
+button:disabled .containerImg {
+  background-color: #dddddd;
+}
+
+button:hover:not([disabled]) .containerImg {
+  background-color: #fff3e0;
+  border: 1px solid #ef9f2e;
+  color: #ef9f2e;
+  opacity: 1;
+}
