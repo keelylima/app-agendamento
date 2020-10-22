@@ -10,12 +10,13 @@
 }
 
 .containerInstagram {
-  margin: 35px 20px 0px 20px;
+  max-width: 368px;
+  margin: 40px auto;
 }
 
 .containerInstagram img {
-  margin: 0 auto;
-  max-width: 30%;
+  margin: 0px auto 10px auto;
+  max-width: 100%;
   display: block;
 }
 
@@ -28,10 +29,15 @@
 .containerIconsInteraction {
   color: #4f4f4f;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px 15px 10px 15px;
 }
 
 .heartIcon {
   margin-right: 13px;
+}
+
+.containerInstagram p {
+  padding: 0px 15px 20px 15px;
 }

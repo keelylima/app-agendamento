@@ -44,6 +44,7 @@ const TemplateInstagram = () => {
         </div>
         <FontAwesomeIcon icon={faBookmark}></FontAwesomeIcon>
       </div>
+      <p>Aqui vai o texto descritivo desse post</p>
     </div>
   );
 };
