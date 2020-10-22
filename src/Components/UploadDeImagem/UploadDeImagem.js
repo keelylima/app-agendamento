@@ -6,16 +6,10 @@ import stylesUploadImagens from '../UploadDeImagem/UploadDeImagem.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloudUploadAlt } from '@fortawesome/free-solid-svg-icons';
 
-const UploadDeImagem = ({ dadosProps }) => {
-  const [dados, setDados] = React.useState(null);
+import { GlobalContext } from '../GlobalContext/GlobalContext';
 
-  function handleChange(event) {
-    if (event.target.files && event.target.files[0]) {
-      console.log('entrou aqui');
-      let img = event.target.files[0];
-      setDados({ ...dados, image: URL.createObjectURL(img) });
-    }
-  }
+const UploadDeImagem = () => {
+  const global = React.useContext(GlobalContext);
 
   return (
     <div
@@ -37,10 +31,8 @@ const UploadDeImagem = ({ dadosProps }) => {
           id="imageUpload"
           accept="image/*"
           style={{ display: 'none' }}
-          onChange={handleChange}
+          onChange={(event) => global.handleChange(event)}
         />
-        {/* mostrar a foto */}
-        {dados && <img src={dados.image} />}
       </div>
     </div>
   );
