@@ -21,8 +21,9 @@ const VisualizacaoPost = () => {
           Aguardando conteúdo. Informe os canais e as mídias desejadas para
           visualização.
         </span>
+        <img src={PostPreviewPhoto} />
       </div>
-      <TemplateInstagram></TemplateInstagram>
+      {/* <TemplateInstagram></TemplateInstagram> */}
     </div>
   );
 };

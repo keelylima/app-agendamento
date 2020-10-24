@@ -13,18 +13,20 @@ import TemplateInstagram from './Components/VisualizacaoPost/TemplateInstagram/T
 import Footer from './Components/Footer/Footer';
 
 function App() {
+  const [buttonFooter, setButtonFooter] = React.useState(true);
+
   return (
     <div className="bg containerGrid">
-      <Header></Header>
-      {/* <Intro></Intro> */}
-      <RedesSociais></RedesSociais>
-      <DataPublicacao></DataPublicacao>
-      <TextoPost></TextoPost>
       <GlobalStorage>
+        <Header></Header>
+        {/* <Intro></Intro> */}
+        <RedesSociais></RedesSociais>
+        <DataPublicacao></DataPublicacao>
+        <TextoPost></TextoPost>
         <UploadDeImagem></UploadDeImagem>
         <VisualizacaoPost></VisualizacaoPost>
+        <Footer></Footer>
       </GlobalStorage>
-      <Footer></Footer>
     </div>
   );
 }

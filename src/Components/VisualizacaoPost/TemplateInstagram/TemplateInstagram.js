@@ -14,7 +14,6 @@ import { GlobalContext } from '../../GlobalContext/GlobalContext';
 
 const TemplateInstagram = () => {
   const global = React.useContext(GlobalContext);
-  console.log(global);
   return (
     <div
       className={classnames(

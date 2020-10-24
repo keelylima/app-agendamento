@@ -11,13 +11,21 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import stylesRedes from '../RedesSociais/RedesSociais.module.css';
 import styles from '../../Styles/geral.module.css';
 
+import { GlobalContext } from '../GlobalContext/GlobalContext';
+
 function RedesSociais() {
+  const global = React.useContext(GlobalContext);
+
   return (
     <div className={classnames(styles.containerBorder, stylesRedes.gridArea)}>
       <h3>Redes Sociais</h3>
       <ul className={stylesRedes.ListRedesSociais}>
         <li>
-          <button className={stylesRedes.btnRedesSociais}>
+          <button
+            className={stylesRedes.btnRedesSociais}
+            className={global.btnState ? stylesRedes.ativo : null}
+            onClick={global.handleClickBtnStatus}
+          >
             <FontAwesomeIcon
               icon={faInstagram}
               className={stylesRedes.containerImg}
